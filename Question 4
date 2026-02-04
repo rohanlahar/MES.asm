@@ -1,0 +1,15 @@
+CLR A             
+ORL A, #70H       
+ORL A, #0FH            
+MOV 61H, A        
+
+CLR A
+ORL A, #OEOH
+ORL A, #0FH
+MOV 60H, A
+
+MOV A, 61H
+ANL A, 60H
+MOV 62H, A
+
+   END
