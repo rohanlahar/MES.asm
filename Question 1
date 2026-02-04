@@ -1,0 +1,9 @@
+       ORG 0000H
+MOV A,#OAH
+MOV B,#64H
+MUL AB
+
+ADD A,#13H
+INC A
+
+  END
